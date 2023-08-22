@@ -1,9 +1,9 @@
 import typing
 
-from common.config import Config
-import model
+from common.config import BaseConfig, Config
+from model import model
 
 
 @model(config=Config)
-def model_x(*, config: Config, data: typing.Any):
+def model_x(*, config: BaseConfig, data: typing.Any):
     return config.a+data-config.b
