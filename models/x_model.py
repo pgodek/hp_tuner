@@ -1,7 +1,7 @@
 import typing
 
 from common.config import Config
-from model import model
+import model
 
 
 @model(config=Config)
