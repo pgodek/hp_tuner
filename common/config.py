@@ -1,4 +1,4 @@
-from tunner.hyper_param import hyper_param
+import hyper_param
 
 
 class BaseConfig:
